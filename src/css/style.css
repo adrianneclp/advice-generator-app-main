@@ -49,13 +49,20 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction:row;
-    position: relative;
+    background-color:var(--advice-dice-color);
     margin-top: -30px;
-    background-color: var(--advice-dice-color);
     width:65px;
     height:65px;
     border-radius:50%;
+    border: none;
+    
+}
+
+.dice:hover{
+    color: #53FFAB;
+    box-shadow: 0 5px 15px var(--advice-dice-color);
+    cursor: pointer;
+    
 }
 
 @media (max-width:575px){
